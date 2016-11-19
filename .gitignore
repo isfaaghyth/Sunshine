@@ -1,0 +1,22 @@
+*.iml
+.gradle
+<<<<<<< f763e1927128bcdc842b22bb5b4d5b45c85617f1
+local.properties
+.idea
+#/.idea/workspace.xml
+#/.idea/libraries
+.DS_Store
+build
+captures
+app/mirror
+projectFilesBackup/
+.externalNativeBuild
+=======
+/local.properties
+/.idea/workspace.xml
+/.idea/libraries
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+>>>>>>> baru
