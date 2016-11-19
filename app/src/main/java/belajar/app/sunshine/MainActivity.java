@@ -31,16 +31,9 @@ public class MainActivity extends AppCompatActivity {
 
     RecyclerView lstSunshineItem;
     LinearLayoutManager linearLayoutManager;
-<<<<<<< f763e1927128bcdc842b22bb5b4d5b45c85617f1
-    List<ItemObject.ListWeather> itemObjects;
     ListAdapter listAdapter;
-
-=======
-    ListAdapter listAdapter;
-
     ItemObject.ListWeather listWeather;
 
->>>>>>> baru
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -56,17 +49,6 @@ public class MainActivity extends AppCompatActivity {
         imgSunshine = (ImageView) findViewById(R.id.img_sunshine);
         lstSunshineItem = (RecyclerView) findViewById(R.id.lst_sunshine_item);
         lstSunshineItem.setLayoutManager(linearLayoutManager);
-
-<<<<<<< f763e1927128bcdc842b22bb5b4d5b45c85617f1
-        itemObjects = new ArrayList<>();
-        itemObjects.add(new ItemObject.ListWeather("test1"));
-        itemObjects.add(new ItemObject.ListWeather("test2"));
-
-        listAdapter = new ListAdapter(this, itemObjects);
-        lstSunshineItem.setAdapter(listAdapter);
-
-        getCurrentWeather(); //parsing data dari openweathermap.org
-=======
         getCurrentWeather(); //parsing data dari openweathermap.org
         getListWeather();
     }
@@ -89,7 +71,6 @@ public class MainActivity extends AppCompatActivity {
 
                     }
                 });
->>>>>>> baru
     }
 
     private void getCurrentWeather() {

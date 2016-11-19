@@ -10,7 +10,6 @@ import java.util.List;
 
 public class ItemObject {
     public static class ListWeather {
-<<<<<<< f763e1927128bcdc842b22bb5b4d5b45c85617f1
         private String judul;
 
         public String getJudul() {
@@ -20,7 +19,6 @@ public class ItemObject {
         public ListWeather(String judul) {
             this.judul = judul;
         }
-=======
 
         @SerializedName("list")
         List<Test> list;
@@ -82,8 +80,6 @@ public class ItemObject {
                 }
             }
         }
-
->>>>>>> baru
     }
 
     public static class CurrentWeather {

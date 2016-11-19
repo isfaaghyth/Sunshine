@@ -19,13 +19,10 @@
             </intent-filter>
         </activity>
 
-<<<<<<< f763e1927128bcdc842b22bb5b4d5b45c85617f1
-=======
         <activity
             android:name=".DetailActivity"
             android:parentActivityName=".MainActivity"/>
 
->>>>>>> baru
     </application>
 
 </manifest>
