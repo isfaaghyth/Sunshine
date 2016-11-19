@@ -63,6 +63,7 @@ public class ListAdapter extends RecyclerView.Adapter<ListAdapter.ListHolder> {
         public ListHolder(View itemView) {
             super(itemView);
             txtDay = (TextView) itemView.findViewById(R.id.txt_day);
+            cardItem = (CardView) itemView.findViewById(R.id.cardview_item);
         }
     }
 }
